@@ -41,6 +41,6 @@ app.get('/', (req,res)=>{
      res.render('home', { products })
 })
 
-http.createServer(app).listen(8000,()=>{
+http.createServer(app).listen(7000,()=>{
      console.log("running")
 })
